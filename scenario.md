@@ -1,12 +1,12 @@
-#Personnages
+# Personnages
 
-##recopier ceux qu'on avait déjà noté
+## recopier ceux qu'on avait déjà noté
 
-*Bûcheron
+* Bûcheron
 
 
-#Endroits
-##voir map du papier
+# Endroits
+## voir map du papier
 
 Partie 1
 ==========
