@@ -2,6 +2,10 @@
 ##recopier ceux qu'on avait déjà noté
 *Bûcheron
 
+
+#Endroits
+##voir map du papier
+
 Partie 1
 ==========
 
