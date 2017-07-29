@@ -11,7 +11,7 @@
 Partie 1
 ==========
 
-#à recopier du petit papier
+# à recopier du petit papier
 pnj à côté du sapin qui dit "aaaah il est vraiment moche ce sapin"
 
 Partie 2
