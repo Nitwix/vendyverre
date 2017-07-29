@@ -1,17 +1,17 @@
 # Personnages
 
-## recopier ceux qu'on avait déjà noté
+### recopier ceux qu'on avait déjà noté
 
 * Bûcheron
 
 
 # Endroits
-## voir map du papier
+### voir map du papier
 
 Partie 1
 ==========
 
-# à recopier du petit papier
+### à recopier du petit papier
 pnj à côté du sapin qui dit "aaaah il est vraiment moche ce sapin"
 
 Partie 2
