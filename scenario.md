@@ -2,7 +2,7 @@
 
 ### recopier ceux qu'on avait déjà noté
 | Perso | Particularités |
-| ======| ============== |
+|-------|----------------|
 | Greg  | A des lunettes |
 
 # Endroits
@@ -17,8 +17,15 @@
 
 Partie 1
 ==========
-### à recopier du petit papier
-pnj à côté du sapin qui dit "aaaah il est vraiment moche ce sapin"
+Tu te réveilles, un pêcheur du village te retrouve évanoui.
+> Hey, m'sieur, vous vous êtes réveillé? J'ai bien cru que vous étiez surgelé.
+> Ouf! Venez chez moi, jvais vous donner un bon chocolat chaud.
+> Ah au fait, jmappelle Garry, jsuis le pêcheur du village.
+> Et toi, tu t'appelles comment?
+*Entre le nom du joueur*
+> Enchanté [Joueur], suis moi
+
+#### pnj à côté du sapin qui dit "aaaah il est vraiment moche ce sapin"
 
 Partie 2
 ========
