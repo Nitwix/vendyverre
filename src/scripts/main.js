@@ -8,6 +8,10 @@ var config = {
 
 var game = new Phaser.Game(config);
 
+//déclaration des variables
+var music;
+var snowEmitter;
+
 //adding the states
 game.state.add("boot", bootState);
 game.state.add("preload", preloadState);
