@@ -29,14 +29,22 @@ var gameState = {
 		player = game.add.sprite(0,480,"player");
 		player.frame = 1;
 		game.physics.enable(player,Phaser.Physics.ARCADE);
+		player.body.collideWorldBounds = true;
 		game.camera.follow(player);
+
+		player.animations.add("walkRight", [0,1,2], 3);
+		player.animations.add("walkLeft", [3,4,5], 3);
 		
 		addSnow();
-		
+
+		initInput(); //init l'objet input (utilisé dans updatePlayer)
 		
 	},
+
 	update: function(){
 		game.physics.arcade.collide(player,collision);
+
+		updatePlayer(player);
 	}
 
 }
