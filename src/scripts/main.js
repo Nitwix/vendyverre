@@ -18,6 +18,7 @@ var souches;
 var feuilles;
 var snow;
 var snowman;
+var collision;
 
 //adding the states
 game.state.add("boot", bootState);

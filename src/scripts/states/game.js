@@ -18,6 +18,9 @@ var gameState = {
 
 		snowman = map.createLayer("snowman");
 		snowman.resizeWorld();
+		
+		collision = map.createLayer("collision");
+		collision.resizeWorld();
 	}
 
 }
