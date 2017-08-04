@@ -22,7 +22,7 @@ var gameState = {
 		snowman.resizeWorld();
 		
 		collision = map.createLayer("collision");
-		map.setCollisionByExclusion([],true,collision);
+		map.setCollisionByExclusion([], true, collision);
 		collision.resizeWorld();
 		collision.visible = false;		
 		

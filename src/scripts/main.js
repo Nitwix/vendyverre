@@ -8,8 +8,6 @@ var config = {
 
 var game = new Phaser.Game(config);
 
-
-
 //déclaration des variables
 var music;
 var snowEmitter;

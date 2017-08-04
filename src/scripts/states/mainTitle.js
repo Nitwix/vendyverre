@@ -1,7 +1,7 @@
 var mainTitleState = {
 	create: function(){
 		game.stage.backgroundColor = "#000";
-		music = game.add.audio("mainTitle",1,true);
+		music = game.add.audio("title",1,true);
 		music.play();
 		
 		
