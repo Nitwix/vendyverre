@@ -1,6 +1,6 @@
 var config = {
 	width: 800,
-	height: 600,
+	height: 450,
 	antialias: false,
 	renderer: Phaser.CANVAS,
 	
