@@ -8,10 +8,13 @@ var config = {
 
 var game = new Phaser.Game(config);
 
+
+
 //déclaration des variables
 var music;
 var snowEmitter;
 var map;
+var player;
 //couches de la map test
 var fond;
 var souches;
@@ -19,6 +22,7 @@ var feuilles;
 var snow;
 var snowman;
 var collision;
+
 
 //adding the states
 game.state.add("boot", bootState);
