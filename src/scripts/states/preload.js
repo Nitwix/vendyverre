@@ -11,7 +11,7 @@ var preloadState = {
 		game.load.spritesheet("player","assets/sprites/player.png",32,64);
 		
 		//load music
-		game.load.audio("mainTitle","assets/music/MainTitle.wav");
+		game.load.audio("title","assets/music/title.wav");
 		
 		//load tilemap
 		game.load.tilemap("mainMap","assets/maps/test.json",null,Phaser.Tilemap.TILED_JSON);

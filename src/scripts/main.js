@@ -1,6 +1,6 @@
 var config = {
 	width: 800,
-	height: 600,
+	height: 450,
 	antialias: false,
 	renderer: Phaser.CANVAS,
 	
@@ -8,9 +8,7 @@ var config = {
 
 var game = new Phaser.Game(config);
 
-
-
-//déclaration des variables
+//déclaration des variables pour game.js
 var music;
 var snowEmitter;
 var map;
