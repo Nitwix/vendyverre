@@ -1,14 +1,18 @@
 var preloadState = {
 	preload: function(){
 		//load images
-		game.load.image("loadingBar", "assets/sprites/loadingBar.png");
+		game.load.image("loadingBar", "assets/sprites/loading/loadingBar.png");
 		
 		//load spritesheets
-		game.load.spritesheet("playButton", "assets/sprites/playButton.png", 64, 50);
+		game.load.image("mainTitle", "assets/sprites/mainMenu/mainTitle.png");
+		game.load.spritesheet("playButton", "assets/sprites/mainMenu/playButton.png", 64, 50);
+		game.load.image("fullscreen", "assets/sprites/mainMenu/fullscreen.png")
+
+
 		game.load.spritesheet("snowflakes","assets/sprites/snowflakes.png",16,16);
-		game.load.image("terrain","assets/sprites/Terrain.png",32,32);
-		game.load.image("snowman","assets/sprites/snowman.png",32,64); //juste pour le test_map
-		game.load.spritesheet("player","assets/sprites/player.png",32,64);
+		game.load.image("terrain","assets/sprites/game/Terrain.png",32,32);
+		game.load.image("snowman","assets/sprites/game/snowman.png",32,64); //juste pour le test_map
+		game.load.spritesheet("player","assets/sprites/game/player.png",32,64);
 		
 		//load music
 		game.load.audio("title","assets/music/title.wav");

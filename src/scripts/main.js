@@ -13,6 +13,7 @@ var music;
 var snowEmitter;
 var map;
 var player;
+
 //couches de la map test
 var fond;
 var souches;

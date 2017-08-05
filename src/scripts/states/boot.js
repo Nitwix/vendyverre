@@ -1,11 +1,11 @@
 var bootState = {
-	preload: function(){
-		//loading image 
-	},
-
 	create: function(){
 		game.stage.backgroundColor = "#53adfd";
 		game.state.start("preload");
+
+		//setting custom properties
+		game.cProps = {};
+		
 	},
 
 	render: function(){
