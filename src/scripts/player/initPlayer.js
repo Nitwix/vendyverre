@@ -10,5 +10,5 @@ function initPlayer(){
 	player.animations.add("walkLeft", [3,4,5], animSpeed);
 
 	player.cProps = {}; //proprietés perso du sprite (custom props)
-	player.cProps.speed = 200;
+	player.cProps.speed = 150;
 }
