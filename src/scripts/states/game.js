@@ -15,7 +15,7 @@ var gameState = {
 	update: function(){
 		game.physics.arcade.collide(player,collision);
 
-		updatePlayer(player);
+		updatePlayer();
 	}
 
 }
