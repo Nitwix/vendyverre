@@ -6,7 +6,7 @@ var preloadState = {
 		//load spritesheets
 		game.load.image("mainTitle", "assets/sprites/mainMenu/mainTitle.png");
 		game.load.spritesheet("playButton", "assets/sprites/mainMenu/playButton.png", 64, 50);
-		game.load.image("fullscreen", "assets/sprites/mainMenu/fullscreen.png")
+		game.load.image("fsButton", "assets/sprites/mainMenu/fullscreen.png")
 
 
 		game.load.spritesheet("snowflakes","assets/sprites/snowflakes.png",16,16);
