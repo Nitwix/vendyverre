@@ -4,5 +4,8 @@ function fadeIn(){
 	bb.drawRect(0, 0, game.camera.width, game.camera.width);
 
 	var bbtween = game.add.tween(bb);
-	bbtween.to({alpha: 0}, 4000, null, true);
+	bbtween.to({alpha: 0}, 1000, null, true);
+	bbtween.onComplete.add(function(){
+		game.camera.shake();
+	});
 }
