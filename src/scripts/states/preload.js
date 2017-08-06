@@ -12,6 +12,7 @@ var preloadState = {
 		game.load.spritesheet("snowflakes","assets/sprites/snowflakes.png",16,16);
 		game.load.image("terrain","assets/sprites/game/Terrain.png",32,32);
 		game.load.image("snowman","assets/sprites/game/snowman.png",32,64); //juste pour le test_map
+		game.load.image("maisons","assets/sprites/game/maison.png",32,32);
 		game.load.spritesheet("player","assets/sprites/game/player.png",32,64);
 		
 		//load music

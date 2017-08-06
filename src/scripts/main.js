@@ -21,6 +21,10 @@ var feuilles;
 var snow;
 var snowman;
 var collision;
+var maisons;
+var detailsM1;
+var detailsM2;
+var detailsM3;
 
 
 //adding the states
