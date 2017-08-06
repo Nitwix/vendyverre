@@ -13,18 +13,7 @@ var mainTitleState = {
 		title.width = 800;
 		title.height = 450;
 
-		var fullscreen = game.add.button(game.width - 10, game.height - 10, "fullscreen",
-			function(){
-				if(game.scale.isFullScreen){
-					game.scale.stopFullScreen();
-				}else{
-					game.scale.startFullScreen(false); //antialas = false
-				}
-			}, this);
-
-		fullscreen.anchor.setTo(1);
-		fullscreen.width = 40;
-		fullscreen.height = 40;
+		addFSButton(); //voir fullscreen.js
 
 		
 		//création des flocons

@@ -6,9 +6,15 @@ var gameState = {
 		
 		initPlayer(); //appelle la fonction se trouvant dans initPlayer.js
 		
-		addSnow();
+		addSnow(); //voir weather.js
+
+		addFSButton(); //voir fullscreen.js
 
 		initInput(); //init l'objet input (utilisé dans updatePlayer)
+
+		fadeIn(); //voir fadeIn.js
+
+		
 		
 	},
 
