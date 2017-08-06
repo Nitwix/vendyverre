@@ -11,6 +11,8 @@ var gameState = {
 		addFSButton(); //voir fullscreen.js
 
 		initInput(); //init l'objet input (utilisé dans updatePlayer)
+
+		fadeIn(); //voir fadeIn.js
 		
 	},
 
