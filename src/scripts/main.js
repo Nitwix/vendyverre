@@ -11,6 +11,7 @@ var game = new Phaser.Game(config);
 //déclaration des variables pour game.js
 var music;
 var snowEmitter;
+var smokeEmitter;
 var map;
 var player;
 

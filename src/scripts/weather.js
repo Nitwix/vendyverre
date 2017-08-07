@@ -15,3 +15,20 @@ function removeSnow(){
 	snowEmitter.kill();
 	//let snowTween = game.add.tween
 }
+
+function addSmoke(x,y){
+	smokeEmitter = game.add.emitter(x,y,8);
+	smokeEmitter.width = 32;
+	smokeEmitter.height = 16;
+	smokeEmitter.makeParticles("smoke",[0,1]);
+	smokeEmitter.maxParticleScale = 0.9;
+	smokeEmitter.minParticleScale = 0.5;
+	smokeEmitter.setYSpeed(-20,-30);
+	smokeEmitter.gravity = 0;
+	smokeEmitter.minRotation = 0;
+	smokeEmitter.maxRotation = 10;
+	//smokeEmitter.particleBringToTop = true;
+	smokeEmitter.enableBody = true;
+	smokeEmitter.start(false,1700,500);
+	
+}

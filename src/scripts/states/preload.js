@@ -10,6 +10,7 @@ var preloadState = {
 
 
 		game.load.spritesheet("snowflakes","assets/sprites/snowflakes.png",16,16);
+		game.load.spritesheet("smoke","assets/sprites/game/smoke.png",32,16);
 		game.load.image("terrain","assets/sprites/game/Terrain.png",32,32);
 		game.load.image("snowman","assets/sprites/game/snowman.png",32,64); //juste pour le test_map
 		game.load.image("maisons","assets/sprites/game/maison.png",32,32);

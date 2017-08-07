@@ -19,9 +19,12 @@ var gameState = {
 	},
 
 	update: function(){
-		game.physics.arcade.collide(player,collision);
+		game.physics.arcade.collide(player, collision);
 
 		updatePlayer();
+	},
+	render: function(){
+		game.debug.body(smokeEmitter);
 	}
 
 }

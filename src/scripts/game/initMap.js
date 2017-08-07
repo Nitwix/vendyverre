@@ -35,4 +35,7 @@ function initMap(){
 	map.setCollisionByExclusion([], true, collision);
 	collision.resizeWorld();
 	collision.visible = false;
+	
+	//faire les smoke emitters
+	addSmoke(1825,209);
 }
