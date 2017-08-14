@@ -7,7 +7,7 @@ var config = {
 };
 
 var game = new Phaser.Game(config);
-
+var npcGroup = new Group(this.game,null,"npcGroup",true);
 //déclaration des variables pour game.js
 var music;
 var snowEmitter;
