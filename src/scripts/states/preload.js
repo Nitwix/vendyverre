@@ -7,7 +7,7 @@ var preloadState = {
 		game.load.image("mainTitle", "assets/sprites/mainMenu/mainTitle.png");
 		game.load.spritesheet("playButton", "assets/sprites/mainMenu/playButton.png", 64, 50);
 		game.load.image("fsButton", "assets/sprites/mainMenu/fullscreen.png");
-		
+		game.load.image("overlap","assets/sprites/overlapcheck.png");
 
 
 		game.load.spritesheet("snowflakes","assets/sprites/snowflakes.png",16,16);
@@ -16,7 +16,7 @@ var preloadState = {
 		game.load.image("snowman","assets/sprites/game/snowman.png",32,64); //juste pour le test_map
 		game.load.image("maisons","assets/sprites/game/maison.png",32,32);
 		game.load.spritesheet("player","assets/sprites/game/player.png",32,64);
-		game.load.image("greg","assets/sprites/game/Gregory.png",32,64);
+		game.load.spritesheet("greg","assets/sprites/game/Gregory.png",32,64);
 		
 		//load music
 		game.load.audio("title","assets/music/title.wav");

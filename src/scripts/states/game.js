@@ -6,6 +6,8 @@ var gameState = {
 		
 		initPlayer(); //appelle la fonction se trouvant dans initPlayer.js
 		
+		initNPC("Greg","greg",128,416);
+		
 		addSnow(); //voir weather.js
 
 		addFSButton(); //voir fullscreen.js
@@ -22,9 +24,12 @@ var gameState = {
 		game.physics.arcade.collide(player, collision);
 
 		updatePlayer();
+		
+		overlap(npcs[0],npcs[0].bounds);
+		
+
 	},
 	render: function(){
-		game.debug.body(smokeEmitter);
 	}
 
 }

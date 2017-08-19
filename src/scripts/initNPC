@@ -1,9 +1,0 @@
-function initNPC(name,spritesheetName,x,y){
-	npc = game.add.sprite(x,y,spritesheetName);
-	npc.anchor.setTo(0.5,1);
-	game.physics.enable(npc,Phaser.Physics.ARCADE);
-	npc.name = name;
-	npc.animations.add("iddle",[12,13,14,15,16],7);
-	npcGroup.add(npc);
-	
-}
