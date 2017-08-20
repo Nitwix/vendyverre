@@ -27,8 +27,8 @@ function addSmoke(x,y){
 	smokeEmitter.gravity = 0;
 	smokeEmitter.minRotation = 0;
 	smokeEmitter.maxRotation = 10;
-	//smokeEmitter.particleBringToTop = true;
 	smokeEmitter.enableBody = true;
 	smokeEmitter.start(false,1700,500);
+	smokeEmitter.particleDrag = new Phaser.Point(smokeEmitter.x +32 , smokeEmitter.y -250);
 	
 }

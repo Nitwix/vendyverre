@@ -14,6 +14,8 @@ var snowEmitter;
 var smokeEmitter;
 var map;
 var player;
+var dialogButton;
+var dialogBox;
 
 //couches de la map test
 var fond;

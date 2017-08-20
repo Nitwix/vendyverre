@@ -17,6 +17,9 @@ var preloadState = {
 		game.load.image("maisons","assets/sprites/game/maison.png",32,32);
 		game.load.spritesheet("player","assets/sprites/game/player.png",32,64);
 		game.load.spritesheet("greg","assets/sprites/game/Gregory.png",32,64);
+		game.load.image("dialogIntro","assets/sprites/game/dialogBox.png");
+		game.load.spritesheet("dialogButton","assets/sprites/dialogButton.png",9,9);
+		game.load.image("dialogBox","assets/sprites/dialogBox.png");
 		
 		//load music
 		game.load.audio("title","assets/music/title.wav");
